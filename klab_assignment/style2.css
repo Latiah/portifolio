@@ -1,0 +1,18 @@
+body{
+    background-color:#084052;
+}
+img{
+    float:left;
+    border-radius: 156px;
+    width:370px;
+    margin-right:50px;
+}
+h2{
+    text-align:center;
+    color:whitesmoke;
+}
+p,ul,ol{
+    color:whitesmoke;
+    
+  
+}
