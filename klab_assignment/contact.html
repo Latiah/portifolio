@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact me</title>
-    <link rel="stylesheet" href="style3.css">
-    <!-- <a href="mailto:kimtifah2@gmail.com">EMAIL ME</a>
-    
-<button class="button button1">address:Kanombe kk 87</button>
-<button class="button button2">email:kimtifah2@gmail.com</button><br/>
-<button class="button button3">telephone:0784964814</button><br/>
-<button class="button button4">name</button><br/>
-<button class="button button5">email</button><br/>
-<button class="button button6">subject</button><br/> -->
-<!-- <input type="submit" value="send me a message"> -->
-<h1><center>GET IN TOUCH WITH ME</center></h1>
-<div class="container">
-<div class="first">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("contactme.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+* {box-sizing: border-box;}
 
-<div class="reg1"><p>ADDRESS:KANOMBE KK87</p></div>
-<div class="reg2"><p>PHONE:0784964814</p></div>
-<div class="reg3"><p>EMAIL:kimtifah2@gmail.com</p></div>
-</div>
-<div class="second">
-<div class="reg4"><p>Name</div>
-<div class="reg5"><p>send message</p></div>
-</div>
-<div class="third">
-<div class="reg6"><p>email</p></div>
-<div class="reg7"><p>message</p></div>
-</div>
+input[type=text], textarea {
+  width:50%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-left:0;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
 
-</body>
+input[type=submit] {
+  background-color: #392A74;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin-right:0;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+/*input[type=submit]:hover {
+  background-color: #45a049;
+}*/
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
 </style>
+</head>
+<body>
+
+<h3>GET IN TOUCH</h3>
+
+<div class="container">
+  <form>
+    <input type="text" id="name" name="name" placeholder="name">
+    <input type="text" id="email" name="email" placeholder="email">
+    <textarea id="subject" name="subject" placeholder="message" style="height:200px"></textarea>
+    <input type="submit" value="Send message">
+  </form>
+</div>
+<div class="footer">
+    <p>MY CONTACT INFORMATION</p>
+    <p>Address: kanombe kk87</p>
+    <p>Phone:0784964814</p>
+    <p>Email:kimtifah2@gmail.com</p>
+  </div>
+</body>
 </html>
