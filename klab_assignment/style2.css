@@ -1,6 +1,10 @@
 body{
     background-color:#152934;
 }
+.topnav {
+    overflow: hidden;
+    /*background-color: white;*/
+  }
 .topnav a {
     float: left;
     display: block;
