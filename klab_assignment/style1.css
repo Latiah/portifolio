@@ -54,17 +54,13 @@ p{
     color: white;
   }
   
- /* .topnav .icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+ @media only screen and (max-width: 767px) {
+    html {
+      font-size: 50%;
     }
-  }*/
+    body{
+  background-color: red;
+  }}
   .topnav input[type=text] {
     float: left;
     padding: 6px;
